@@ -1,4 +1,4 @@
-var numberInputSection = document.getElementById("numberInput");
+const numberInputSection = document.getElementById("numberInput");
 var formattedNumberValue = document.getElementById("formattedNumber");
 var testerButton = document.getElementById("testButton");
 var testerText = document.getElementById("testText");
