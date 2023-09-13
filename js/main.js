@@ -31,6 +31,6 @@ function numberFormat(e) {
 	}
 }
 	
-function testFunction(gondor) {
-	testerText.innerHTML = "Tatooine";
-}
+// function testFunction(gondor) {
+// 	testerText.innerHTML = "Tatooine";
+// }
