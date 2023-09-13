@@ -1,7 +1,7 @@
 const numberInputSection = document.getElementById("numberInput");
-var formattedNumberValue = document.getElementById("formattedNumber");
-var testerButton = document.getElementById("testButton");
-var testerText = document.getElementById("testText");
+const formattedNumberValue = document.getElementById("formattedNumber");
+const testerButton = document.getElementById("testButton");
+const testerText = document.getElementById("testText");
 
 	
 numberInputSection.addEventListener("input",  function(e) {
@@ -14,9 +14,9 @@ testerButton.addEventListener("click",  function() {
 
 // Phone Number Formatting Change Function	
 function numberFormat(e) {
-	var numberInput = e.target.value;
-	var countArr = 0;
-	var numInputArr = numberInput.split("");
+	let numberInput = e.target.value;
+	// var countArr = 0;
+	let numInputArr = numberInput.split("");
 	for (var i = 0; i < 11; i++) {
 		if (i === 0) {
 		} else if (i === 3) {
@@ -24,7 +24,7 @@ function numberFormat(e) {
 		} else if (i === 7) {
 			numInputArr.splice(i,0,"-");
 		} else if (i > 11) {
-			var finalNumInputArr = numInputArr;
+			// var finalNumInputArr = numInputArr;
 		}
 		var gondor = numInputArr.toString().split(",").join('').slice(0, 13);
 		formattedNumberValue.textContent = "1 (" + gondor;
