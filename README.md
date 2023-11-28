@@ -44,4 +44,4 @@
 // https://fonts.google.com/specimen/Roboto?query=roboto
 
 ## Helpful Resources:
-// 
+// https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
