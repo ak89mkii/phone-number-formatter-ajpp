@@ -3,15 +3,28 @@ body {
   text-align: center;
 }
 
+#numberInput {
+  height: 30px;
+  width: 50%;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 15px;
+}
+
+#formattedNumber { 
+  font-size: 30px;
+}
+
 #testButton {
-    color: white;
-    background-color: #0047ab;
-    width: 200px;
-    height: 40px;
-    border-style: solid;
-    border-color: #0047ab;
-    border-radius: 10px;
-    font-size: 20px;
+  color: white;
+  background-color: #0047ab;
+  width: 200px;
+  height: 40px;
+  border-style: solid;
+  border-color: #0047ab;
+  border-radius: 10px;
+  font-size: 20px;
   }
 
 
