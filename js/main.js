@@ -26,11 +26,31 @@ function numberFormat(e) {
 		} else if (i > 11) {
 			// var finalNumInputArr = numInputArr;
 		}
-		var gondor = numInputArr.toString().split(",").join('').slice(0, 13);
+		let gondor = numInputArr.toString().split(",").join('').slice(0, 13);
 		formattedNumberValue.textContent = "1 (" + gondor;
+		console.log(formattedNumberValue.textContent)
 	}
 }
 	
 // function testFunction(gondor) {
 // 	testerText.innerHTML = "Tatooine";
 // }
+
+function testFunction() {
+
+	testerText.innerHTML = "Vulcan!";
+	console.log(formattedNumberValue.textContent)
+
+	// // Get the text field
+	// let copyText = formattedNumberValue;
+  
+	// // Select the text field
+	// copyText.select();
+	// copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+	 // Copy the text inside the text field
+	navigator.clipboard.writeText(formattedNumberValue.textContent);
+  
+	// Alert the copied text
+	alert("Copied the Formatted Phone Number: " + formattedNumberValue.textContent);
+}
