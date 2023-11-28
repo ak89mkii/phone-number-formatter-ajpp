@@ -45,3 +45,4 @@
 
 ## Helpful Resources:
 // https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
+// https://thenounproject.com/icon/american-flag-41748/
